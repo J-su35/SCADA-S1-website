@@ -1,0 +1,30 @@
+
+test1
+https://medium.com/swlh/how-to-convert-excel-data-into-json-object-using-javascript-1c4e0d3e97ee
+
+https://github.com/YDulanjani/ConvertExcelToJSON/tree/master/convertExcelToJSON/js
+แปลงข้อมูลเล็กๆได้ แต่ข้อมูลใหญ่ไม่ได้
+test2
+https://www.aspsnippets.com/Articles/Convert-Excel-to-JSON-using-JavaScript.aspx
+แปลงได้ แต่ต้องไม่ modify อีก
+test3
+https://stackoverflow.com/questions/28782074/excel-to-json-javascript-code
+https://www.quora.com/How-can-I-convert-an-Excel-sheet-to-JSON-data-in-JavaScript
+
+https://myclassbook.org/convert-excel-json-using-javascript-code/
+แปลงได้ แต่เป็นวิธี XML ใช้ XMLHttpRequest Object ต้องเปิด XAMP
+
+->http://localhost/ABSFSD/test3.html
+
+source อื่นๆ ยังไม่ได้ลอง
+ใช้ใน nodejs
+https://www.npmjs.com/package/convert-excel-to-json
+ใช้ VBA
+https://www.youtube.com/watch?v=YgwUS9vvTTU
+
+https://www.youtube.com/watch?v=9hVO9-sSOVM
+https://www.youtube.com/watch?v=pZa2WQ7Tm7U
+
+ใช้ nodejs
+https://www.youtube.com/watch?v=3yiiFd79dSg
+https://www.youtube.com/watch?v=tKz_ryychBY

@@ -1,0 +1,134 @@
+{
+    "subName": "จอมบึง",
+    "voltage": "115/22 kV",
+    "factDetail": [
+        {
+            "Cbname": "CBN1YB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN2YB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN3YB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN1BVB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN2BVB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN1VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN2VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN3VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN4VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN5VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN6VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN7VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN8VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN9VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "CBN10VB-01",
+            "factor": "1000"
+        }
+      ],
+      "subName": "ราชบุรี2",
+      "voltage": "115/22 kV",
+      "factDetail": [
+        {
+            "Cbname": "RBB1YB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB2YB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB3YB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB4YB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB1BVB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB2BVB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB1VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB2VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB3VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB4VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB5VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB6VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB7VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB8VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB9VB-01",
+            "factor": "1000"
+        },
+        {
+            "Cbname": "RBB10VB-01",
+            "factor": "1000"
+        }
+    ]
+}

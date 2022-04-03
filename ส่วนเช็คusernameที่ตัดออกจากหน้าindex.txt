@@ -1,0 +1,33 @@
+<?php
+session_start();
+if(!isset($_SESSION['username'])) {
+	header("Location:login.html");
+}
+?>
+
+ไฟล์ที่ใช้
+
+index.php หน้าแรก
+scadas1.php หน้าแรกฉบับเดิม
+footer.php ส่วน Footer
+header.php ส่วน header
+login.html หน้า login -> logincheck.php เช็คการlogin ติดต่อdatabase
+logout.php หน้า logout logout และ session_destroy
+signup.php หน้าลงทะเบียน -> signup.inc.php สร้างข้อมูลผู้ใช้ใหม่ใน database
+login2.inc.php
+dbh.inc.php ตัว connect database อยู่ใน includes
+logintest.php สำหรับทดสอบ login ของ signin database
+
+ไฟล์ที่ต้องแก้ข้างในถ้าขึ้น www
+config.php
+bad_equip.php
+upload01.php
+process4.php
+uploaddwg
+
+
+// $conn = mysqli_connect("localhost", "root", "123456");
+$conn = mysqli_connect("sql113.epizy.com", "epiz_24636187", "uONrYWxJLD");
+
+// $db = mysqli_select_db($conn, 'login');
+$db = mysqli_select_db($conn, 'epiz_24636187_login');

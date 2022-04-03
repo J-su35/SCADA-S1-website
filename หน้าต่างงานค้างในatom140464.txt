@@ -1,0 +1,11 @@
+bad_equipBoardv.2.php
+bad_equipBoard-sort.php
+superweapon\index2.php
+superweapon\feeder_monthly_a.php
+superweapon\test2c.php
+superweapon\test1c.php
+superweapon\includes\dbh.inc.php
+superweapon\includes\dbConfig.php
+superweapon\SMC code\dmsweb\feeder_monthly.php
+superweapon\test2b.php
+superweapon\ajaxData2.php

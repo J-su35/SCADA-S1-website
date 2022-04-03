@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>รายงานการอ่านมาตรวัดไฟฟ้า</title>
+  </head>
+  <body>
+    <h2>รายงานงานการอ่านมาตรวัดไฟฟ้าประจำเดือน</h2>
+    <form action="/action_page.php">
+      <label>เดือน</label>
+      <select name="month" required>
+        <option value=""></option>
+        <option value="มกราคม">มกราคม</option>
+        <option value="กุมภาพันธ์">กุมภาพันธ์</option>
+        <option value="มีนาคม">มีนาคม</option>
+        <option value="เมษายน">เมษายน</option>
+        <option value="พฤษภาคม">พฤษภาคม</option>
+        <option value="มิถุนายน">มิถุนายน</option>
+        <option value="กรกฎาคม">กรกฎาคม</option>
+        <option value="สิงหาคม">สิงหาคม</option>
+        <option value="กันยายน">กันยายน</option>
+        <option value="ตุลาคม">ตุลาคม</option>
+        <option value="พฤศจิกายน">พฤศจิกายน</option>
+        <option value="ธันวาคม">ธันวาคม</option>
+      </select>
+      <label>พ.ศ.</label>
+      <input type="text" name="year" id="yeartxt" disabled><br>
+      <label>สฟฟ.</label>
+      <select name="substaion" id="subName" required>
+        <option value=""></option>
+        <option value="จอมบึง">จอมบึง</option>
+        <option value="ชะอำ 1">ชะอำ 1</option>
+        <option value="ชะอำ 2">ชะอำ 2</option>
+        <option value="ชะอำ 3">ชะอำ 3</option>
+        <option value="ปากท่อ">ปากท่อ</option>
+        <option value="โพธาราม">โพธาราม</option>
+        <option value="ราชบุรี 2 ลานไก">ราชบุรี 2 ลานไก</option>
+        <option value="ราชบุรี 2">ราชบุรี 2</option>
+        <option value="ราชบุรี 3 (ชั่วคราว)">ราชบุรี 3 (ชั่วคราว)</option>
+        <option value="ราชบุรี 3 (ถาวร)">ราชบุรี 3 (ถาวร)</option>
+        <option value="หัวหิน 2">หัวหิน 2</option>
+        <option value="หัวหิน 3">หัวหิน 3</option>
+        <option value="หัวหิน 4">หัวหิน 4</option>
+        <option value="ดำเนินสะดวก">ดำเนินสะดวก</option>
+        <option value="สวนผึ้ง">สวนผึ้ง</option>
+      </select> <button type="button" onclick="chooseSub()">เลือก</button><br>
+      <label>แรงดัน</label>
+      <input type="text" name="voltage" id="voltage" disabled><br>
+      <label>เวลาอ่าน</label>
+      <input type="time" name="read_time" required>
+      <label>วันที่อ่าน</label>
+      <input type="date" name="read_date" required><br><br>
+
+      <fieldset>
+        <legend id="legend0"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F1_current_Exunit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F1_current_Imunit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F1_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F1_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F1_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F0_factor" id="factor0" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F1_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend1"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F2_currnet_Exunit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F2_current_Imunit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F2_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F2_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F2_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F1_factor" id="factor1" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F2_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend2"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F3_current_Exunit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F3_current_Imunit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F3_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F3_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F3_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F1_factor" id="factor2" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F3_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend3"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F4_current_Exunit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F4_current_Imunit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F4_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F4_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F4_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F3_factor" id="factor3" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F4_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend4"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F5_current_Exunit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F5_current_Imunit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F5_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F5_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F5_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F4_factor" id="factor4" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F5_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend5"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F6_current_Exunit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F6_current_Imunit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F6_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F6_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F6_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F5_factor" id="factor5" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F6_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend6"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F7_current_Exunit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F7_current_Imunit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F7_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F7_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F7_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F6_factor" id="factor6" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F7_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend7"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F8_current_Exunit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F8_current_Imunit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F8_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F8_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F8_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F7_factor" id="factor7" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F8_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend8"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F9_current_Exunit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F9_current_Imunit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F9_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F9_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F9_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F8_factor" id="factor8" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F9_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend9"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F10_current_Exunit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F10_current_Imunit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F10_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F10_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F10_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F9_factor" id="factor9" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F10_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend10"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F11_current_Exunit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F11_current_Imunit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F11_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F11_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F11_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F10_factor" id="factor10" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F11_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend11"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F12_current_unit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F12_current_unit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F12_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F12_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F12_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F11_factor" id="factor11" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F12_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend12"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F13_current_unit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F13_current_unit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F13_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F13_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F13_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F12_factor" id="factor12" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F13_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend13"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F14_current_unit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F14_current_unit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F14_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F14_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F14_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F13_factor" id="factor13" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F14_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend14"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F15_current_unit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F15_current_unit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F15_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F15_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F15_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F14_factor" id="factor14" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F15_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend15"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F16_current_unit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F16_current_unit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F16_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F16_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F16_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F15_factor" id="factor15" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F16_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend16"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F17_current_unit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F17_current_unit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F17_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F17_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F17_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F16_factor" id="factor16" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F17_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend17"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F18_current_unit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F18_current_unit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F18_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F18_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F18_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F17_factor" id="factor17" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F18_summation" disabled><br>
+      </fieldset><br>
+
+      <fieldset>
+        <legend id="legend18"></legend>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนนี้</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F19_current_unit"><br>
+        <label>Import (-)</label>
+        <input type="number" name="F19_current_unit"><br>
+
+        <label>ตัวเลขที่อ่านได้ในเดือนก่อน</label><br>
+        <label>Export (+)</label>
+        <input type="number" name="F19_last_Exunit" disabled><br>
+        <label>Import (-)</label>
+        <input type="number" name="F19_last_Imunit" disabled><br>
+
+        <label>ผลต่าง</label><input type="text" name="F19_different" disabled><br>
+        <label>ตัวคูณ</label>
+        <select name="F18_factor" id="factor18" required>
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="1000">1000</option>
+          <option value="1000000">1000000</option>
+        </select><br>
+        <label>ผลลัพธ์</label><input type="text" name="F19_summation" disabled><br>
+      </fieldset><br>
+
+      <label>การถ่ายเทโหลดระหว่าง Incoming</label>
+      <input type="checkbox" name="loadtransfer_incoming" value="มี">มี
+      <input type="checkbox" name="loadtransfer_incoming" value="ไม่มี">ไม่มี <br>
+      <label>การถ่ายเทโหลดระหว่าง Feeder</label>
+      <input type="checkbox" name="loadtransfer_incoming" value="มี">มี
+      <input type="checkbox" name="loadtransfer_incoming" value="ไม่มี">ไม่มี <br>
+      <label>พลังงานไฟฟ้า Incoming</label> <input type="text" name="sumIncoming_energy" disabled><br>
+      <label>พลังงานไฟฟ้า Feeder</label> <input type="text" name="sumFeeder_energy" disabled><br>
+      <label>หมายเหตุ</label>
+      <textarea name="message" rows="5" cols="30"></textarea><br>
+      <label>ผู้ลงข้อมูล</label> <input type="text" name="operator_name"><br>
+      <br><br>
+      <button type="button" onclick="meterCalculate()">ประมวลผล</button> <button type="submit">บันทึกข้อมูล</button>
+    </form>
+
+    <script>
+      function chooseSub() {
+
+var jsonSub = [{Name:"จอมบึง", voltage:"115/22 kV", factor:1000, cbName:["CBN1YB-01", "CBN2YB-01", "CBN3YB-01", "CBN1BVB-01", "CBN2BVB-01", "CBN1VB-01", "CBN2VB-01", "CBN3VB-01", "CBN4VB-01", "CBN5VB-01", "CBN6VB-01", "CBN7VB-01", "CBN8VB-01", "CBN9VB-01", "CBN10VB-01", "", "", "", ""]},
+              {Name:"ชะอำ 1", voltage:"22 kV", factor:1000, cbName:["CAA1BVB", "CAA2BVB-01", "CAA1B-01", "CAA2B-01", "CAA3B-01", "CAA4B-01", "CAA5B-01", "CAA6B-01", "CAA7B-01", "CAA7B-01", "CAA8B-01", "CAA9B-01", "CAA10B-01", "", "", "", "", "", ""]},
+              {Name:"ชะอำ 2", voltage:"115/22 kV", factor:1000, cbName:["CAB1YB-01", "CAB2YB-01", "CAB3YB-01", "CAB4YB-01", "CAB1BVB-01", "CAB2BVB-01", "CAB1VB-01", "CAB2VB-01", "CAB3VB-01", "CAB4VB-01", "CAB5VB-01", "CAB6VB-01", "CAB7VB-01", "CAB8VB-01", "CAB9VB-01", "CAB10VB-01", "", "", ""]},
+              {Name:"ชะอำ 3", voltage:"115/22 kV", factor:1000, cbName:["CAU1YB-01", "CAU1BVB-01", "CAU1VB-01", "CAU2VB-01", "CAU3VB-01", "CAU4VB-01", "CAU5VB-01", "", "", "", "", "", "", "", "", "", "", "", ""]},
+              {Name:"ปากท่อ", voltage:"115/22 kV", factor:1000, cbName:["PTH2YB-01", "PTH3YB-01", "PTH4YB-01", "PTH5YB-01", "PTH1BVB-01", "PTH2BVB-01", "PTH1VB-01", "PTH2VB-01", "PTH3VB-01", "PTH4VB-01", "PTH5VB-01", "PTH6VB-01", "PTH7VB-01", "PTH8VB-01", "PTH9VB-01", "PTH10VB-01", "", "", ""]},
+              {Name:"โพธาราม", voltage:"115/22 kV", factor:1000, cbName:["PTR2YB-01", "PTR3YB-01", "PTR4YB-01", "PTR5YB-01", "PTR6YB-01", "PTR7YB-01", "PTR8YB-01", "PTR1BVB-01", "PTR2BVB-01", "PTR1VB-01", "PTR2VB-01", "PTR3VB-01", "PTR4VB-01", "PTR5VB-01", "PTR6VB-01", "PTR7VB-01", "PTR8VB-01", "PTR9VB-01", "PTR10VB-01"]},
+              {Name:"ราชบุรี 2 ลานไก", voltage:"115 kV", factor:1, cbName:["RBB1YB-01", "RBB2YB-01", "RBB3YB-01", "RBB4YB-01", "RBB5YB-01", "RBB6YB-01", "RBB7YB-01", "", "", "", "", "", "", "", "", "", "", "", ""]},
+              {Name:"ราชบุรี 2", voltage:"115/22 kV", factor:1000, cbName:["RBB1BVB-01", "RBB2BVB-01", "RBB1VB-01", "RBB2VB-01", "RBB3VB-01", "RBB4VB-01", "RBB5VB-01", "RBB6VB-01", "RBB7VB-01", "RBB8VB-01", "RBB9VB-01", "RBBBVB-01", "", "", "", "", "", "", ""]},
+              {Name:"ราชบุรี 3 (ชั่วคราว)", voltage:"115/22 kV", factor:1000, cbName:["RBU1YB-01", "RBU1VB-01", "RBU2VB-01", "RBU3VB-01", "RBU4VB-01", "RBU5VB-01", "", "", "", "", "", "", "", "", "", "", "", "", ""]},
+              {Name:"ราชบุรี 3 (ถาวร)", voltage:"22 kV", factor:1000, cbName:["RBU1YB-01", "RBU1VB-01", "RBU2VB-01", "RBU3VB-01", "RBU4VB-01", "RBU5VB-01", "", "", "", "", "", "", "", "", "", "", "", "", ""]},
+              {Name:"หัวหิน 2", voltage:"115/22 kV", factor:1000, cbName:["HUB2YB-01", "HUB3YB-01", "HUB4YB-01", "HUB5YB-01", "HUB6YB-01", "HUB1BVB-01", "HUB2BVB-01", "HUB1VB-01", "HUB2VB-01", "HUB3VB-01", "HUB4VB-01", "HUB5VB-01", "HUB6VB-01", "HUB7VB-01", "HUB8VB-01", "HUB9VB-01", "HUB10VB-01", "", ""]},
+              {Name:"หัวหิน 3", voltage:"115/22 kV", factor:1000, cbName:["HUC1YB-01", "HUC3YB-01", "HUC1BVB-01", "HUC2BVB-01", "HUC1VB-01", "HUC2VB-01", "HUC3VB-01", "HUC4VB-01", "HUC5VB-01", "HUC6VB-01", "HUC7VB-01", "HUC8VB-01", "HUC9VB-01", "HUC10VB-01", "", "", "", "", ""]},
+              {Name:"หัวหิน 4", voltage:"115/22 kV", factor:1000, cbName:["HUU1YB-01", "HUU1BVB-01", "HUU1VB-01", "HUU2VB-01", "HUU3VB-01", "HUU4VB-01", "HUU5VB-01", "", "", "", "", "", "", "", "", "", "", "", ""]},
+              {Name:"ดำเนินสะดวก", voltage:"115/22 kV", factor:1000, cbName:["DNA1YB-01", "DNA2YB-01", "DNA3YB-01", "DNA4YB-01", "DNA1BVB-01", "DNA2BVB-01", "DNA3VB-01", "DNA4VB-01", "DNA5VB-01", "DNA6VB-01", "DNA7VB-01", "DNA8VB-01", "DNA9VB-01", "DNA10VB-01", "", "", "", "", ""]},
+              {Name:"สวนผึ้ง", voltage:"115/22 kV", factor:1, cbName:["XPU1YB-01", "XPU1BR-01", "XPU2BR-01", "XPU3BR-01", "XPU4BR-01", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
+              ];
+
+      var sub = document.getElementById("subName").value;
+      let i, j;
+      for (i = 0; i < 15; i++) {
+        if (sub == jsonSub[i].Name) {
+          document.getElementById("voltage").value = jsonSub[i].voltage;
+          for (j=0; j < 19; j++) {
+            document.getElementById("legend"+[j]).appendChild(document.createTextNode(jsonSub[i].cbName[j]));
+            document.getElementById("factor"+[j]).value = jsonSub[i].factor;
+          }
+        }
+     }
+
+
+      }
+    </script>
+
+  </body>
+</html>

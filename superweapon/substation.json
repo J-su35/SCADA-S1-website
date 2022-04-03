@@ -1,0 +1,226 @@
+{
+    "Sheet1": [
+        {
+            "id": "1",
+            "subName": "PTR",
+            "subNameTH": "โพธาราม 1",
+            "parent_id": "0"
+        },
+        {
+            "id": "2",
+            "subName": "PTS",
+            "subNameTH": "โพธาราม 2",
+            "parent_id": "0"
+        },
+        {
+            "id": "3",
+            "subName": "DNA",
+            "subNameTH": "ดำเนินสะดวก",
+            "parent_id": "0"
+        },
+        {
+            "id": "4",
+            "subName": "SSA",
+            "subNameTH": "สมุทรสงคราม",
+            "parent_id": "0"
+        },
+        {
+            "id": "5",
+            "subName": "CBN",
+            "subNameTH": "จอมบึง",
+            "parent_id": "0"
+        },
+        {
+            "id": "6",
+            "subName": "RBB HV",
+            "subNameTH": "ราชบุรี 2 ลานไก",
+            "parent_id": "0"
+        },
+        {
+            "id": "7",
+            "subName": "RBA",
+            "subNameTH": "ราชบุรี 1",
+            "parent_id": "0"
+        },
+        {
+            "id": "8",
+            "subName": "RBB",
+            "subNameTH": "ราชบุรี 2",
+            "parent_id": "0"
+        },
+        {
+            "id": "9",
+            "subName": "RBC",
+            "subNameTH": "ราชบุรี 3 ถาวร",
+            "parent_id": "0"
+        },
+        {
+            "id": "10",
+            "subName": "RBU",
+            "subNameTH": "ราชบุรี 3 ชั่วคราว",
+            "parent_id": "0"
+        },
+        {
+            "id": "11",
+            "subName": "RIU",
+            "subNameTH": "นิคมอุตสาหกรรมราชบุรี",
+            "parent_id": "0"
+        },
+        {
+            "id": "12",
+            "subName": "PTH",
+            "subNameTH": "ปากท่อ",
+            "parent_id": "0"
+        },
+        {
+            "id": "13",
+            "subName": "KHY",
+            "subNameTH": "เขาย้อย 1",
+            "parent_id": "0"
+        },
+        {
+            "id": "14",
+            "subName": "KHZ",
+            "subNameTH": "เขาย้อย 2",
+            "parent_id": "0"
+        },
+        {
+            "id": "15",
+            "subName": "PBA",
+            "subNameTH": "เพชรบุรี 1",
+            "parent_id": "0"
+        },
+        {
+            "id": "16",
+            "subName": "PBN",
+            "subNameTH": "เพชรบุรี 1 ใหม่",
+            "parent_id": "0"
+        },
+        {
+            "id": "17",
+            "subName": "PBB",
+            "subNameTH": "เพชรบุรี 2",
+            "parent_id": "0"
+        },
+        {
+            "id": "18",
+            "subName": "KDA",
+            "subNameTH": "แก่งกระจาน",
+            "parent_id": "0"
+        },
+        {
+            "id": "19",
+            "subName": "CAA",
+            "subNameTH": "ชะอำ 1",
+            "parent_id": "0"
+        },
+        {
+            "id": "20",
+            "subName": "CAB",
+            "subNameTH": "ชะอำ 2",
+            "parent_id": "0"
+        },
+        {
+            "id": "21",
+            "subName": "CAU",
+            "subNameTH": "ชะอำ 3",
+            "parent_id": "0"
+        },
+        {
+            "id": "22",
+            "subName": "HUB",
+            "subNameTH": "หัวหิน 2",
+            "parent_id": "0"
+        },
+        {
+            "id": "23",
+            "subName": "HUC",
+            "subNameTH": "หัวหิน 3",
+            "parent_id": "0"
+        },
+        {
+            "id": "24",
+            "subName": "HUU",
+            "subNameTH": "หัวหิน 4",
+            "parent_id": "0"
+        },
+        {
+            "id": "25",
+            "subName": "PNA",
+            "subNameTH": "ปราณบุรี",
+            "parent_id": "0"
+        },
+        {
+            "id": "26",
+            "subName": "KUA",
+            "subNameTH": "กุยบุรี",
+            "parent_id": "0"
+        },
+        {
+            "id": "27",
+            "subName": "PDA",
+            "subNameTH": "ประจวบคีรีขันธ์",
+            "parent_id": "0"
+        },
+        {
+            "id": "28",
+            "subName": "BSP",
+            "subNameTH": "บางสะพาน 1",
+            "parent_id": "0"
+        },
+        {
+            "id": "29",
+            "subName": "BSR",
+            "subNameTH": "บางสะพาน 2",
+            "parent_id": "0"
+        },
+        {
+            "id": "30",
+            "subName": "TSE",
+            "subNameTH": "ท่าแซะ",
+            "parent_id": "0"
+        },
+        {
+            "id": "31",
+            "subName": "CPA",
+            "subNameTH": "ชุมพร 1",
+            "parent_id": "0"
+        },
+        {
+            "id": "32",
+            "subName": "CPB",
+            "subNameTH": "ชุมพร 2",
+            "parent_id": "0"
+        },
+        {
+            "id": "33",
+            "subName": "LSA",
+            "subNameTH": "หลังสวน",
+            "parent_id": "0"
+        },
+        {
+            "id": "34",
+            "subName": "LSU",
+            "subNameTH": "หลังสวน 2",
+            "parent_id": "0"
+        },
+        {
+            "id": "35",
+            "subName": "RNA",
+            "subNameTH": "ระนอง 1",
+            "parent_id": "0"
+        },
+        {
+            "id": "36",
+            "subName": "RNB",
+            "subNameTH": "ระนอง 2",
+            "parent_id": "0"
+        },
+        {
+            "id": "37",
+            "subName": "XPU",
+            "subNameTH": "สวนผึ้ง",
+            "parent_id": "0"
+        }
+    ]
+}

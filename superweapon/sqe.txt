@@ -1,0 +1,16 @@
+Microsoft SQL Server Driver for PHP
+https://www.php.net/manual/en/book.sqlsrv.php
+
+
+sqlsrv_fetch_array
+https://www.php.net/manual/en/function.sqlsrv-fetch-array.php
+sqlsrv_has_rows
+https://www.php.net/manual/en/function.sqlsrv-has-rows.php
+
+SQL W3School
+https://www.w3schools.com/sql/default.asp
+
+PHP mysqli fetch_assoc() Function
+PHP MySQL Use The ORDER BY Clause
+
+test2b1a.php

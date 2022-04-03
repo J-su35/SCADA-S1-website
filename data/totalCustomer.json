@@ -1,0 +1,524 @@
+{
+    "totalCoustomer": [
+        {
+            "PEACODE": "1001101",
+            "Br_name": "กฟจ.เพชรบุรี",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "15256",
+            "Sum Of CUST_AMT_AREA4": "3734",
+            "Sum Of CUST_AMT_AREA5": "28876",
+            "sum": "47866"
+        },
+        {
+            "PEACODE": "1001201",
+            "Br_name": "กฟส.บ้านแหลม",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "4008",
+            "Sum Of CUST_AMT_AREA5": "7964",
+            "sum": "11972"
+        },
+        {
+            "PEACODE": "1001203",
+            "Br_name": "กฟย.บางตะบูน",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1542",
+            "Sum Of CUST_AMT_AREA5": "572",
+            "sum": "2114"
+        },
+        {
+            "PEACODE": "1001301",
+            "Br_name": "กฟส.ท่ายาง",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "15322",
+            "Sum Of CUST_AMT_AREA5": "14632",
+            "sum": "29954"
+        },
+        {
+            "PEACODE": "1001302",
+            "Br_name": "กฟย.แก่งกระจาน",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "0",
+            "Sum Of CUST_AMT_AREA5": "13517",
+            "sum": "13517"
+        },
+        {
+            "PEACODE": "1001303",
+            "Br_name": "กฟย.ท่าไม้รวก",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "0",
+            "Sum Of CUST_AMT_AREA5": "9983",
+            "sum": "9983"
+        },
+        {
+            "PEACODE": "1001501",
+            "Br_name": "กฟส.บ้านลาด",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1814",
+            "Sum Of CUST_AMT_AREA5": "19916",
+            "sum": "21730"
+        },
+        {
+            "PEACODE": "1001601",
+            "Br_name": "กฟส.เขาย้อย",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "5107",
+            "Sum Of CUST_AMT_AREA5": "9081",
+            "sum": "14188"
+        },
+        {
+            "PEACODE": "1001602",
+            "Br_name": "กฟย.หนองหญ้าปล้อง",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "0",
+            "Sum Of CUST_AMT_AREA5": "6101",
+            "sum": "6101"
+        },
+        {
+            "PEACODE": "1002101",
+            "Br_name": "กฟจ.ราชบุรี",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "14134",
+            "Sum Of CUST_AMT_AREA4": "13485",
+            "Sum Of CUST_AMT_AREA5": "43486",
+            "sum": "71105"
+        },
+        {
+            "PEACODE": "1002301",
+            "Br_name": "กฟส.ปากท่อ",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1285",
+            "Sum Of CUST_AMT_AREA5": "20719",
+            "sum": "22004"
+        },
+        {
+            "PEACODE": "1002302",
+            "Br_name": "กฟย.วัดเพลง",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "673",
+            "Sum Of CUST_AMT_AREA5": "4268",
+            "sum": "4941"
+        },
+        {
+            "PEACODE": "1003101",
+            "Br_name": "กฟจ.สมุทรสงคราม",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "10839",
+            "Sum Of CUST_AMT_AREA4": "0",
+            "Sum Of CUST_AMT_AREA5": "28406",
+            "sum": "39245"
+        },
+        {
+            "PEACODE": "1003201",
+            "Br_name": "กฟส.อัมพวา",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "3651",
+            "Sum Of CUST_AMT_AREA5": "12884",
+            "sum": "16535"
+        },
+        {
+            "PEACODE": "1003301",
+            "Br_name": "กฟส.บางคนที",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "2038",
+            "Sum Of CUST_AMT_AREA5": "9945",
+            "sum": "11983"
+        },
+        {
+            "PEACODE": "1004101",
+            "Br_name": "กฟจ.ประจวบคีรีขันธ์",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "9546",
+            "Sum Of CUST_AMT_AREA4": "1515",
+            "Sum Of CUST_AMT_AREA5": "18279",
+            "sum": "29340"
+        },
+        {
+            "PEACODE": "1004104",
+            "Br_name": "กฟย.นิคมฯอ่าวน้อย",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1464",
+            "Sum Of CUST_AMT_AREA5": "3974",
+            "sum": "5438"
+        },
+        {
+            "PEACODE": "1004301",
+            "Br_name": "กฟส.ทับสะแก",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "3778",
+            "Sum Of CUST_AMT_AREA5": "15124",
+            "sum": "18902"
+        },
+        {
+            "PEACODE": "1004401",
+            "Br_name": "กฟส.กุยบุรี",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "4024",
+            "Sum Of CUST_AMT_AREA5": "10106",
+            "sum": "14130"
+        },
+        {
+            "PEACODE": "1005101",
+            "Br_name": "กฟจ.ชุมพร",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "15491",
+            "Sum Of CUST_AMT_AREA4": "4103",
+            "Sum Of CUST_AMT_AREA5": "33014",
+            "sum": "52608"
+        },
+        {
+            "PEACODE": "1005103",
+            "Br_name": "กฟย.กระบุรี",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1413",
+            "Sum Of CUST_AMT_AREA5": "10874",
+            "sum": "12287"
+        },
+        {
+            "PEACODE": "1005401",
+            "Br_name": "กฟส.ปากน้ำชุมพร",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "5919",
+            "Sum Of CUST_AMT_AREA5": "3494",
+            "sum": "9413"
+        },
+        {
+            "PEACODE": "1006101",
+            "Br_name": "กฟจ.ระนอง",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "7456",
+            "Sum Of CUST_AMT_AREA4": "1909",
+            "Sum Of CUST_AMT_AREA5": "26570",
+            "sum": "35935"
+        },
+        {
+            "PEACODE": "1006102",
+            "Br_name": "กฟย.พะโต๊ะ",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "655",
+            "Sum Of CUST_AMT_AREA5": "4114",
+            "sum": "4769"
+        },
+        {
+            "PEACODE": "1006103",
+            "Br_name": "กฟย.กะเปอร์",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1017",
+            "Sum Of CUST_AMT_AREA5": "5808",
+            "sum": "6825"
+        },
+        {
+            "PEACODE": "1006104",
+            "Br_name": "กฟย.ละอุ่น",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "211",
+            "Sum Of CUST_AMT_AREA5": "9931",
+            "sum": "10142"
+        },
+        {
+            "PEACODE": "1006105",
+            "Br_name": "กฟย.สุขสำราญ",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "0",
+            "Sum Of CUST_AMT_AREA5": "3715",
+            "sum": "3715"
+        },
+        {
+            "PEACODE": "1007101",
+            "Br_name": "กฟอ.หัวหิน",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "46435",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "0",
+            "Sum Of CUST_AMT_AREA5": "12936",
+            "sum": "59371"
+        },
+        {
+            "PEACODE": "1007102",
+            "Br_name": "กฟย.หนองพลับ",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "2508",
+            "Sum Of CUST_AMT_AREA5": "9745",
+            "sum": "12253"
+        },
+        {
+            "PEACODE": "1008101",
+            "Br_name": "กฟอ.ปราณบุรี",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "8372",
+            "Sum Of CUST_AMT_AREA5": "21041",
+            "sum": "29413"
+        },
+        {
+            "PEACODE": "1008102",
+            "Br_name": "กฟย.สามร้อยยอด",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "5834",
+            "Sum Of CUST_AMT_AREA5": "5011",
+            "sum": "10845"
+        },
+        {
+            "PEACODE": "1008103",
+            "Br_name": "กฟย.ปากน้ำปราณบุรี",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "3550",
+            "Sum Of CUST_AMT_AREA5": "3675",
+            "sum": "7225"
+        },
+        {
+            "PEACODE": "1009101",
+            "Br_name": "กฟอ.โพธาราม",
+            "Sum Of CUST_AMT_AREA1": "18",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "2889",
+            "Sum Of CUST_AMT_AREA4": "17797",
+            "Sum Of CUST_AMT_AREA5": "16292",
+            "sum": "36996"
+        },
+        {
+            "PEACODE": "1009106",
+            "Br_name": "กฟย.นางแก้ว",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1488",
+            "Sum Of CUST_AMT_AREA5": "6968",
+            "sum": "8456"
+        },
+        {
+            "PEACODE": "1009201",
+            "Br_name": "กฟส.ดำเนินสะดวก",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "4846",
+            "Sum Of CUST_AMT_AREA5": "17563",
+            "sum": "22409"
+        },
+        {
+            "PEACODE": "1009301",
+            "Br_name": "กฟส.ดอนไผ่",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "5256",
+            "Sum Of CUST_AMT_AREA5": "5911",
+            "sum": "11167"
+        },
+        {
+            "PEACODE": "1009401",
+            "Br_name": "กฟส.บางแพ",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "10077",
+            "Sum Of CUST_AMT_AREA5": "7056",
+            "sum": "17133"
+        },
+        {
+            "PEACODE": "1010101",
+            "Br_name": "กฟอ.ชะอำ",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "26305",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "8454",
+            "Sum Of CUST_AMT_AREA5": "12127",
+            "sum": "46886"
+        },
+        {
+            "PEACODE": "1011101",
+            "Br_name": "กฟอ.บางสะพาน",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "5223",
+            "Sum Of CUST_AMT_AREA5": "22410",
+            "sum": "27633"
+        },
+        {
+            "PEACODE": "1011102",
+            "Br_name": "กฟย.บางสะพานน้อย",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1441",
+            "Sum Of CUST_AMT_AREA5": "11160",
+            "sum": "12601"
+        },
+        {
+            "PEACODE": "1012101",
+            "Br_name": "กฟอ.จอมบึง",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "2032",
+            "Sum Of CUST_AMT_AREA5": "13198",
+            "sum": "15230"
+        },
+        {
+            "PEACODE": "1012104",
+            "Br_name": "กฟย.ด่านทับตะโก",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "771",
+            "Sum Of CUST_AMT_AREA5": "7275",
+            "sum": "8046"
+        },
+        {
+            "PEACODE": "1012105",
+            "Br_name": "กฟย.บ้านคา",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "0",
+            "Sum Of CUST_AMT_AREA5": "7707",
+            "sum": "7707"
+        },
+        {
+            "PEACODE": "1012201",
+            "Br_name": "กฟส.สวนผึ้ง",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "3561",
+            "Sum Of CUST_AMT_AREA5": "9788",
+            "sum": "13349"
+        },
+        {
+            "PEACODE": "1013101",
+            "Br_name": "กฟอ.หลังสวน",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "5534",
+            "Sum Of CUST_AMT_AREA4": "0",
+            "Sum Of CUST_AMT_AREA5": "27074",
+            "sum": "32608"
+        },
+        {
+            "PEACODE": "1013102",
+            "Br_name": "กฟย.ปากน้ำหลังสวน",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "2678",
+            "Sum Of CUST_AMT_AREA5": "2810",
+            "sum": "5488"
+        },
+        {
+            "PEACODE": "1013103",
+            "Br_name": "กฟย.ละแม",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1131",
+            "Sum Of CUST_AMT_AREA5": "10147",
+            "sum": "11278"
+        },
+        {
+            "PEACODE": "1013104",
+            "Br_name": "กฟย.ปากตะโก",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "3032",
+            "Sum Of CUST_AMT_AREA5": "1191",
+            "sum": "4223"
+        },
+        {
+            "PEACODE": "1013201",
+            "Br_name": "กฟส.สวี",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1499",
+            "Sum Of CUST_AMT_AREA5": "26287",
+            "sum": "27786"
+        },
+        {
+            "PEACODE": "1014101",
+            "Br_name": "กฟอ.ท่าแซะ",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "2749",
+            "Sum Of CUST_AMT_AREA5": "29632",
+            "sum": "32381"
+        },
+        {
+            "PEACODE": "1014102",
+            "Br_name": "กฟย.ปะทิว",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1819",
+            "Sum Of CUST_AMT_AREA5": "10077",
+            "sum": "11896"
+        },
+        {
+            "PEACODE": "1014103",
+            "Br_name": "กฟย.ดอนยาง",
+            "Sum Of CUST_AMT_AREA1": "0",
+            "Sum Of CUST_AMT_AREA2": "0",
+            "Sum Of CUST_AMT_AREA3": "0",
+            "Sum Of CUST_AMT_AREA4": "1031",
+            "Sum Of CUST_AMT_AREA5": "6556",
+            "sum": "7587"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Basic AJAX</title>
+	<script type="text/javascript">
+		// window.onload = function() {  //โหลด page มาให้รัน function เลย
+		// 		loadPage();
+		// 	}
+
+		//-------------------------------------------------------------
+
+		// function loadPage() {			//กรณีมี page เดียว
+		// 	var x = new XMLHttpRequest();
+		// 	x.open("get","page1.html");
+			
+		// 	x.onreadystatechange=function() {
+		// 		var content=document.getElementById("showcontent");
+		// 		content.innerHTML=x.responseText;
+		// 	}
+		// 	x.send(null);
+		// }
+
+		//-------------------------------------------------------------
+
+		function loadPage(para1) {			//กรณีมีหลาย page
+			var x = new XMLHttpRequest();
+			x.open("get",para1);
+			
+			x.onreadystatechange=function() {
+				var content=document.getElementById("showcontent");
+				content.innerHTML=x.responseText;
+			}
+			x.send(null);
+		}
+
+		//-------------------------------------------------------------
+		//part สุดท้าย การหน่วงเวลา และเปลี่ยนแปลงข้อมูลอัตโนมัติ การเปลี่ยนแปลงข้อมูลอัตโนมัติใช้คู่กับการหน่วงเวลาเสนอ
+		window.onload = function() {  //โหลด page มาให้รัน function เลย
+				// loadPage("page1.html");  //ตั้งให้โหลด page1 เป็นหน้าแรก
+
+				setInterval('loadPage("page1.html")',2000);  //ตรงนี้ทำให้เกิดการ update ข้อมูลอัตโนมัติ ทุก ๆ 2 วินาที
+			}
+
+			function loadPage(para1) {			//กรณีมีหลาย page
+			var x = new XMLHttpRequest();
+			x.open("get",para1);
+			
+			x.onreadystatechange=function() {
+				var content=document.getElementById("showcontent");
+				content.innerHTML=x.responseText;
+			}
+			x.send(null);
+		}
+		
+	</script>
+</head>
+<body>
+	<h1 style="background-color: yellow;text-align: center">ทดสอบการใช้งาน AJAX</h1>
+	<button onclick="loadPage('page1.html')">แสดงรายการสินค้า</button>
+	<button onclick="loadPage('Number.php')">แสดงตัวเลข</button>
+	<button onclick="loadPage('product.html')">แสดงสินค้าในคลัง</button>
+	<hr>
+	<div id="showcontent"></div>
+</body>
+</html>
